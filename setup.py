@@ -24,7 +24,7 @@ setup(
     author_email='abusquets@gmail.com',
     license='MIT License',
     platforms=['OS Independent'],
-    url='http://bitbucket.org/microdisseny/dj_upload2s3',
+    url='https://github.com/Microdisseny/dj_upload2s3',
     packages=find_packages(exclude=['__pycache__']),
     include_package_data=True,
     classifiers=CLASSIFIERS,
