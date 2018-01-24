@@ -1,0 +1,7 @@
+*~
+*.pyc
+__pycache__
+/build/
+/dist/
+dj_upload2s3.egg-info
+venv
