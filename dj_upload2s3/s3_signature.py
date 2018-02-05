@@ -30,7 +30,6 @@ class Signature(object):
         self.secret = secret
         self.bucket = bucket
         self.region = region
-        print(options)
         for key, value in options.items():
             self.options[key] = value
         self.generate_current_date()
