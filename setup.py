@@ -12,7 +12,7 @@ CLASSIFIERS = [
     'Programming Language :: Python',
     'Programming Language :: Python :: 3',
     'Environment :: Web Environment',
-    'Development Status :: 3 - Alpha',
+    'Development Status :: 3 - Beta',
     'Topic :: Software Development :: Libraries :: Python Modules',
 ]
 
