@@ -215,11 +215,9 @@ var Uploader2S3Vue = Vue.extend({
                         'original_name': newFile.file.name,
                         's3_name': s3Result[2].innerHTML,
                         'size': newFile.file.size,
-                        'url': s3Result[0].innerHTML.replace("%2F", "/"),
-                        'last_modfied': file.lastModified,
-                        'type': file.type
+                        'url': s3Result[0].innerHTML.replace("%2F", "/")
                     };
-                    this.callback(result);
+                    this.callback(result, newFile);
                 })
                 .catch(e => {
                     var error = "{% trans 'Data error' %}";
