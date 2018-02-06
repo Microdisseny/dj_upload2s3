@@ -225,7 +225,7 @@ var Uploader2S3Vue = Vue.extend({
                         e.request.status < 500) {
                         error = "{% trans 'incorrect parameters' %}";
                     }
-                    if (e.request && e.request.status > 500) {
+                    if (e.request && e.request.status >= 500) {
                         error = "{% trans 'server error' %}";
                     }
                     newFile.error = error;
