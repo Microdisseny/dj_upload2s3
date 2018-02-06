@@ -5,3 +5,5 @@ __pycache__
 /dist/
 dj_upload2s3.egg-info
 venv
+
+publish.sh
